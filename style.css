@@ -167,3 +167,84 @@ header {
   font-weight: 600;
   font-size: 16px;
 }
+
+td,
+th {
+  border: 1px solid #555;
+  padding: 5px 10px;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.table-div {
+  padding: 40px
+}
+
+.table-div h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.table-div p {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 30px;
+}
+
+.match-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.match-table th {
+  background-color: #9c2a2a;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 16px;
+  letter-spacing: 0.5px;
+  border: 1px solid #7d2020;
+}
+
+.match-table td {
+  padding: 16px;
+  font-size: 14px;
+  color: #333333;
+  border: 1px solid #cccccc;
+  vertical-align: middle;
+}
+
+.date-col{
+  color:#7d2020 !important;
+  font-weight: 600;
+}
+
+.match-col{
+  color:#111111 !important;
+  font-weight: 600;
+}
+
+.stage-col{
+  font-weight: 600px;
+  color: #666666;
+}
+
+.collor{
+  color:#7d2020 !important;
+}
+
+.collor-2{
+  color: #cca300 !important;
+}
