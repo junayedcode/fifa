@@ -51,6 +51,7 @@ header {
   flex-direction: column;
   gap: 20px;
 }
+
 .hero h1 {
   color: #ffffff;
   font-weight: 700;
@@ -76,6 +77,7 @@ header {
   background-color: #e8ba2e;
   margin-top: 12px;
 }
+
 .live-0 {
   display: flex;
   gap: 24px;
@@ -84,6 +86,84 @@ header {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .live-0 h1 {
- font-size: 50px;
+  font-size: 50px;
+}
+
+.host {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0 20px;
+}
+
+.host h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+
+
+.img {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+/* Image */
+.img img {
+  width: 450px;
+  height: 300px;
+  border-radius: 16px;
+
+}
+
+/* Text */
+
+
+.card h3 {
+  font-size: 30px;
+  font-weight: 700;
+
+}
+
+.card p {
+  font-size: 16px;
+  color: #555;
+  font-weight: 400;
+
+}
+
+/* List */
+.card ul {
+  display: block;
+  list-style: disc;
+  padding-left: 20px;
+
+}
+
+.card ul li {
+  display: list-item;
+
+  font-size: 17px;
+  color: #555;
+}
+
+/* Button */
+.host-btn {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.host-btn button {
+  background: #FFC107;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
 }
